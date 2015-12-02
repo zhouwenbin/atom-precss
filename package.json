@@ -1,0 +1,41 @@
+{
+  "name": "precss",
+  "version": "0.1.0",
+  "description": "Use Sass-like markup in your CSS",
+  "license": "MIT",
+  "repository": "zhouwenbin/atom-precss",
+  "private": true,
+  "author": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com",
+    "url": "zhouwenbin.com"
+  },
+  "activationCommands": {
+    "atom-workspace": "precss"
+  },
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "keywords": [
+    "css",
+    "prefix",
+    "prefixer"
+  ],
+  "dependencies": {
+    "precss": "^1.4.0",
+    "postcss": "^5.0.4",
+    "postcss-safe-parser": "^1.0.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "atom"
+    ]
+  }
+}
